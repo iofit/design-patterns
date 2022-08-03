@@ -1,4 +1,4 @@
-package com.iofit.creational;
+package com.iofit.creational.singleton;
 
 import com.iofit.exceptions.NoMoneyException;
 

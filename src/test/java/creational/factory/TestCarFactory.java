@@ -1,4 +1,4 @@
-package behavioral;
+package creational.factory;
 
 import com.iofit.creational.factory.Car;
 import com.iofit.creational.factory.CarFactory;
@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-public class TestFactory {
+public class TestCarFactory {
 
     @Test
     public void testCarFactory() throws NotAvailableCarException {

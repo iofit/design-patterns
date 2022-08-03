@@ -1,18 +1,17 @@
-package behavioral;
+package creational.singleton;
 
-import com.iofit.creational.Wallet;
+import com.iofit.creational.singleton.Wallet;
 import com.iofit.exceptions.NoMoneyException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class TestSingleton {
+public class TestWallet {
 
     @Test
     public void testCreateMultipleSequentialInstances() {
