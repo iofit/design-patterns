@@ -5,6 +5,7 @@ import com.iofit.exceptions.NotAvailableCarException;
 public class CarFactory {
     private static CarFactory instance;
 
+    private CarFactory() {}
     public static CarFactory getInstance() {
         synchronized (CarFactory.class){
             if(instance == null) {
